@@ -5,6 +5,7 @@
     {
       "name":"localize_products",
       "from":"dataset_jpath:",
+      "type":"text",
       "lambda" : "lambda met: get_partial_products(met['_id'],get_best_url(met['_source']['urls']),[ 'NSBAS-PARAMS.h5.gz' ])"
     },
     { 
