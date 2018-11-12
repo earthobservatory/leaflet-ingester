@@ -36,6 +36,8 @@ def query(tsid):
 def update(lf_url,tsid):
     '''
     '''
+    # get dataset id
+    if '/' in tsid: tsid = tsid.split('/')[0]
     url,index,tpe = query(tsid)
     new_doc = {
         "doc": {"visualization-url": lf_url},
