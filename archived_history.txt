@@ -1,0 +1,102 @@
+commit bd381f7ea13ab5384a804e8650848fb972651520
+Merge: e476d80 6277630
+Author: M Starch <lestarch@googlemail.com>
+Date:   Thu Jun 15 22:50:48 2017 +0000
+
+    mstarch: merging in 'master'
+
+commit e476d805eba20f3f433c586670f8803aa7b46069
+Author: M Starch <lestarch@googlemail.com>
+Date:   Thu Jun 15 22:48:29 2017 +0000
+
+    mstarch: fixing pointer to leaflet
+
+commit 62776301fdbf6f9824d2dd77e5e0c7df698bf8d3
+Author: M Starch <Michael.D.Starch@jpl.nasa.gov>
+Date:   Thu May 4 19:14:51 2017 +0000
+
+    mstarch: moving ts-store
+
+commit 9b2382c9dbf4613f95cca7f13a126d2db46412a6
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Thu May 4 17:39:29 2017 +0000
+
+    mstarch: fixing NSBAS-PARAMS name
+
+commit e8c8723384c67ec1326892638d05635d931f3995
+Author: M Starch <lestarch@googlemail.com>
+Date:   Thu May 4 17:29:51 2017 +0000
+
+    mstarch: removing unneeded products input
+
+commit 0bb948630a339adf1d97e4064d4bb9952938b102
+Author: M Starch <lestarch@googlemail.com>
+Date:   Thu May 4 17:28:32 2017 +0000
+
+    mstarch: missing colon
+
+commit c773ef5c6e59349835ebde902e15c1e751f2a5e1
+Author: M Starch <lestarch@googlemail.com>
+Date:   Wed May 3 21:42:39 2017 +0000
+
+    mstarch: updating ts-ingest for v2
+
+commit 8d6b4220a308819de5a61dca4d832085885646a8
+Author: M Starch <lestarch@googlemail.com>
+Date:   Thu Sep 29 23:22:43 2016 +0000
+
+    mstarch: adding unpigz to ingeter
+
+commit a2dfed79f0a8a745d745e54382fdc73c1370c628
+Author: M Starch <lestarch@googlemail.com>
+Date:   Thu Sep 22 22:57:44 2016 +0000
+
+    mstarch: posting URL updates
+
+commit 8532514b3fc37f45720de53a1f24e38946b39563
+Author: M Starch <lestarch@googlemail.com>
+Date:   Mon Sep 12 17:27:43 2016 +0000
+
+    mstarch: working on-leaflet-server ingester
+
+commit 366af9cb1898979703b17d1758284f5c190918c1
+Author: M Starch <lestarch@googlemail.com>
+Date:   Mon Sep 12 16:27:33 2016 +0000
+
+    mstarch: ingester-bakwards fixing
+
+commit f796959c66b8754929a3c284ec565e1c58470918
+Author: M Starch <lestarch@googlemail.com>
+Date:   Mon Sep 12 16:26:44 2016 +0000
+
+    mstarch: ingester fixes
+
+commit 69115b881f7931b6f168b51c3a565c6525a60ad1
+Author: Michael Starch <Michael.D.Starch@jpl.nasa.gov>
+Date:   Fri Sep 9 17:26:48 2016 +0000
+
+    mstarch: update to make leaflet server also its own verdi
+
+commit 4ef179824fd5468e05c8746d6a7bbf141afc2005
+Author: Michael Starch <Michael.D.Starch@jpl.nasa.gov>
+Date:   Tue Sep 6 21:50:39 2016 +0000
+
+    mstarch: changing config to example
+
+commit 2b7f28d9f9fb7fafedb4a7fab6d81daa480d3cac
+Author: Michael Starch <Michael.D.Starch@jpl.nasa.gov>
+Date:   Tue Sep 6 21:36:07 2016 +0000
+
+    mstarch: fixing extension to represent language
+
+commit 60018a4446ead1f90ea906d614f985eb52e20143
+Author: Michael Starch <Michael.D.Starch@jpl.nasa.gov>
+Date:   Tue Sep 6 21:22:31 2016 +0000
+
+    mstarch: formatting in readme
+
+commit e517d55e147080b7be57916e2f5948b25c189554
+Author: Michael Starch <Michael.D.Starch@jpl.nasa.gov>
+Date:   Tue Sep 6 21:17:31 2016 +0000
+
+    mstarch: initial implementation of leaflet ingester

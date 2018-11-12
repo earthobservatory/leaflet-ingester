@@ -1,0 +1,12 @@
+{
+  "command": "/home/ops/ts-ingest/ingester.bash",
+  "imported_worker_files": {
+  },
+  "required_queues": ["ts-ingest"],
+  "params" : [
+    {
+      "name":"localize_products",
+      "destination":"localize"
+    } 
+  ]
+}
