@@ -1,0 +1,25 @@
+{
+  "label":Displacement Time Series Ingest - NSBAS",
+  "submission_type":"iteration",
+  "params" : [
+    {
+      "name":"localize_products",
+      "from":"dataset_jpath:",
+      "lambda" : "lambda met: get_partial_products(met['_id'],get_best_url(met['_source']['urls']),[ 'NSBAS-PARAMS.h5.gz' ])"
+    },
+    { 
+      "name": "thredds_data_dir",
+      "from": "submitter",
+      "type": "text",
+      "default": "/data/ts/",
+      "placeholder": "THREDDS data directory"
+    },
+    { 
+      "name": "leaflet_url",
+      "from": "submitter",
+      "type": "text",
+      "default": "https://aria-timeseries.jpl.nasa.gov/",
+      "placeholder": "Leaflet URL"
+    }
+  ]
+}

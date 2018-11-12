@@ -7,6 +7,14 @@
     {
       "name":"localize_products",
       "destination":"localize"
-    } 
+    }, 
+    {
+      "name": "thredds_data_dir",
+      "destination": "positional"
+    },
+    {
+      "name": "leaflet_url",
+      "destination": "positional"
+    }
   ]
 }
