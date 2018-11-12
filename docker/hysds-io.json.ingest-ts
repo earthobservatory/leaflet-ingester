@@ -1,12 +1,12 @@
 {
-  "label":"Displacement Time Series Ingest - NSBAS",
+  "label":"Displacement Time Series Ingest",
   "submission_type":"iteration",
   "params" : [
     {
       "name":"localize_products",
       "from":"dataset_jpath:",
       "type":"text",
-      "lambda" : "lambda met: get_partial_products(met['_id'],get_best_url(met['_source']['urls']),[ 'NSBAS-PARAMS.h5.gz' ])"
+      "lambda" : "lambda met: get_best_url(met['_source']['urls'])"
     },
     { 
       "name": "thredds_data_dir",

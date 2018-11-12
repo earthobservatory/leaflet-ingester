@@ -1,4 +1,0 @@
-#export LEAFLET_SERVER=""
-#export LEAFLET_SERVER_IDENTITY=""
-#Don't modify below line (unless you know)
-export LEAFLET_SERVER_DS_LOCATION="/home/ops/verdi/ops/aria-leaflet-timeseries-docker/datasets/ts/"
