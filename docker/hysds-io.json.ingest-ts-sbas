@@ -1,5 +1,5 @@
 {
-  "label":Displacement Time Series Ingest - SBAS",
+  "label":"Displacement Time Series Ingest - SBAS",
   "submission_type":"iteration",
   "params" : [
     {
